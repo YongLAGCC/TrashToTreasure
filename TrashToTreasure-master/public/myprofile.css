@@ -1,0 +1,105 @@
+.body {
+	background-color: #81c784;
+}
+
+.container-fluid {
+	background-color: #66bb6a !important;
+}
+
+.container-fluid .active {
+	color: #66bb6a;
+}
+
+.nav .navbar-right {
+	color: #424242;
+}
+
+
+.container-fluid .navbar {
+	box-shadow: 10px 10px 10px gray;
+}
+
+.container-fluid .navbar-brand {
+	font-size: 17px;
+}
+
+.container-fluid .nav {
+	color: black;
+}
+
+.container .row {
+	background-color: #66bb6a;
+	border-radius: 150px;
+	font-family: Roboto;
+	padding: 0 px;
+	width: 300px;
+	margin: 70px;
+	float: center;
+}
+
+#username {
+	font-family: Roboto;
+	font-size: 20px;
+}
+
+.panel .panel-heading {
+	margin: 100px 0px 0px;
+	font-size: 32px;
+	font-family: Roboto;
+	background: #66bb6a;
+	border-radius: 150px;
+	width: 300px;
+	text-align; center;
+}
+
+#custom-search-input{
+    padding: 0px;
+    margin: 5px;
+    width: 200px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+    font-size: 16px;
+    height: 40px;
+}
+
+#custom-search-input button{
+    margin: 0px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    height: 40px;
+    color: #666666;
+    padding: 10px 10px 0px 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 20px;
+}
+
+.panel .center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .footer {
+	font-size: 16px;
+	font-family: Roboto;
+}
+
+.row .col-xs-12 {
+	margin: 0px;
+} 

@@ -1,0 +1,16 @@
+{
+  "name": "trash_to_treasure_app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "4.15.2",
+    "firebase": "^3.7.6",
+    "firebase-admin": "^4.2.1",
+    "mongodb": "^2.2.25"
+  },
+  "author": "Luis Rizo",
+  "license": "ISC"
+}

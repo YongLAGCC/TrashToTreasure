@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>Trash To Treasure</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-recycle,.fa-recycle {font-size:200px}
+label{
+display:inline-block;
+width:150px;
+margin-left:20px;
+text-align:left;
+}
+
+fieldset{
+border:none;
+width:500px;
+margin:0px auto;
+}
+       #map {
+        height: 1000px;
+        width: 1000px;
+       }
+       h1 {
+          text-align: center;
+
+       }
+       form {
+        text-align: center;
+}
+</style>
+<header>
+<script src="JavaScript/mainScript.js" type = "text/javascript">
+</script>
+</header>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-green w3-card-2 w3-left-align w3-large">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-padding-large w3-hover-red w3-large w3-red" href="javascript:void(0);" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    </li>
+    <li><a onclick="initRedirect()" href="#" class="w3-padding-large w3-green">About Us</a></li>
+    <li class="w3-hide-small"> </li>
+  </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+  </div>
+</div>
+
+
+<!-- Header -->
+<header class="w3-container w3-green w3-center w3-padding-128">
+  <h1 class="w3-margin w3-jumbo">Trash to Treasure </h1>
+    <form method = "post" action ="myprofile.html" name= "myForm" onsubmit= "validateForm()" ><!-- THERE IS PROBLEM WITH THE FORM, THE PROBLEM IS THAT WHEN THE LOG IN BUTTON IS CLICK IT WILL ALWAYS GO TO THE NEXT PAGE EVEN IF THE CONDITION OF THE JAVASCRIPT IS FALSE. -->
+  <div>
+
+    <label>Username</label>
+    <input type = "text" name = "Username" id = "Username" />
+  </div>
+    <br/>
+    <div>
+    <label>Email Address</label>
+    <input type = "text" name = "Password" id = "Password" />
+
+  </div>
+   <br/>
+   <div>
+    <label>EMPL ID</label>
+    <input type = "text" name = "Password" id = "Password" />
+
+  </div>
+   <br/>
+   <div>
+    <label>Name </label>
+    <input type = "text" name = "Password" id = "Password" />
+
+  </div>
+    <div>
+
+    <!--This is too incress the width  (w3-padding-200) -->
+  </div>
+  </form>
+ <a h> <button class="w3-btn w3-padding-200 w3-large w3-margin-top">Sign in</button></a>
+  <a h> <button onclick= "redirectSignUp()" class="w3-btn w3-padding-200 w3-large w3-margin-top"  >Sign up</button></a>
+
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Trash to Treasure</h1>
+      <h5 class="w3-padding-600">Trash to treasure.</h5>
+
+      <p class="w3-text-grey"> Trash To treasure Description.</p>
+    </div>
+
+    <div class="w3-left-align w3-center">
+      <i class="fa fa-recycle w3-padding-64 w3-text-light-green"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="w3-container w3-dark-grey w3-center w3-opacity w3-padding-1000">
+    <h1 class="w3-margin w3-xlarge">Join us!</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+  <div class="w3-xlarge w3-padding-32">
+   <a href="#" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+   <a href="#" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
+   <a href="#" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
+   <a href="#" class="w3-hover-text-grey"><i class="fa fa-flickr"></i></a>
+   <a href="#" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+ </div>
+
+</footer>
+
+
+
+</body>
+</html>

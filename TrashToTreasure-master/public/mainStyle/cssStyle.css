@@ -1,0 +1,49 @@
+
+body {
+    
+    align-content: center;
+    background-image: url("mainStyle/image4.jpg");
+
+    
+}
+#laguar_logo
+{
+	margin-top: 30px;
+	margin-left: 40rem;
+}
+#top_mianBody
+{
+	margin-top:100px;
+margin-bottom: 200px;
+
+}
+#big_wrapper {
+
+margin: 500;
+align-content: center;
+
+}
+#top_header{
+	font:bold 30px Times;
+	color: red; 
+}
+#big_wrapper{
+	margin-left: 200px;
+	margin-right:180px;
+	font:bold 14px Times;
+	text-align:justify;
+}
+#top_bottom
+{
+ font:bold 25px Arial;
+}
+=======
+
+.imagewrap {display:inline-block;position:relative;}
+
+.button1 {position:absolute;right:0;top:0;}
+
+
+
+
+
